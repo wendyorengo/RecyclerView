@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         rvNames.layoutManager = LinearLayoutManager(baseContext)
-        val namesAdapter = NamesRecyclerViewAdapter(29,"laughing",
+        val namesAdapter = NamesRecyclerViewAdapter(29,"travelling",
             listOf("wendy","valary","Akoth","Ben","John","Keith","James","Opondo","Opinyo","Awuor"))
         rvNames.adapter = namesAdapter
 
